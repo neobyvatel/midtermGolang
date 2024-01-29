@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/julienschmidt/httprouter"
 	"github.com/neobyvatel/midtermGolang/internal/models"
 	"github.com/neobyvatel/midtermGolang/internal/validator"
-	"github.com/neobyvatel/midtermGolang/julienschmidt/httprouter"
 )
 
 func (app *application) home(w http.ResponseWriter, r *http.Request) {

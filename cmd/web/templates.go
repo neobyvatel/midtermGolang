@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"snippetbox.yelnurabdrakhmanov.net/internal/models"
-	"snippetbox.yelnurabdrakhmanov.net/ui"
+	"github.com/neobyvatel/midtermGolang/internal/models"
+	"github.com/neobyvatel/midtermGolang/ui"
 )
 
 type templateData struct {

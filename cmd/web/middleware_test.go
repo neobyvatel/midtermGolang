@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"snippetbox.yelnurabdrakhmanov.net/internal/assert"
+	"github.com/neobyvatel/midtermGolang/internal/assert"
 )
 
 func TestSecureHeaders(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 	"github.com/justinas/alice"
-	"snippetbox.yelnurabdrakhmanov.net/ui"
+	"github.com/neobyvatel/midtermGolang/ui"
 )
 
 func (app *application) routes() http.Handler {
